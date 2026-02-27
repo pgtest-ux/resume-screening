@@ -1,0 +1,17 @@
+app:
+  base_storage_path: "D:/HiringData"   # optional, for future
+  llm_provider: "groq"
+
+jobs:
+  ProductManager-Mumbai:
+    base_path: "D:/HiringData/ProductManager-Mumbai"
+    jd_filename: "ProductManager-Mumbai_jd.docx"
+    resumes_dirname: "resumes"
+    output_filename: "ProductManager-Mumbai_screening_results.xlsx"
+    seniority_level: "Senior"
+  TechLead-Mumbai:
+    base_path: "D:/HiringData/TechLead-Mumbai"
+    jd_filename: "TechLead-Mumbai_jd.docx"
+    resumes_dirname: "resumes"
+    output_filename: "TechLead-Mumbai_screening_results.xlsx"
+    seniority_level: "Senior"
